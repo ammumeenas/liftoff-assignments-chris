@@ -1,29 +1,20 @@
-# Project Outline
+# **Overview** #
+I have always wanted a website for keeping tracks of few things for my vocal music class. So my project will be able to track  the student profile, attendance of the students, fee payments and few other functionalities that will be added gradually. 
 
-## Overview
+# **Features** #
 
-My project will be an event log that will allow staff members at an organization to track public events that they offer. It will allow staff members to log in, and to create and edit event details such as date/time, location, title, description, number of attendees, and volunteers.
+*The user will be able to log in either by creating accounts or a guest Log in.Once they join the class, they will have to create an account. The guest users will be able to checkout the class schedule.
+Guest users will be able to able to access the course materials.They can choose the preferred course from the choices available
 
-This project was motivated by the need of a nonprofit organization that wants a way to keep track of and view historical information about their events.
+*Once the guest users have joined the class and created the account,they can check their profile,fee payment status, No of vocal classes attended and class schedules.
 
-## Features
+# **Tehnologies** #
+*Dotnet
+*MySql
+*Javascript
+ 
+# **What I'll Have to Learn** #
 
-- User login: Users will be able to log in, either by creating accounts in the system, or by using a third-party authentication provider (e.g. Google Authentication). All access to the site will be restricted to logged-in users.
-- Create and edit events: Users will be able to create new events in the system by entering in a mixture of required (title, date, time, etc) and optional fields (description, number of attendees, etc)
-- View recent events: Users will be able to view a listing of recent events, and by clicking on a recent event view details about that event.
-- Volunteer tracking: Users will be able to add volunteers to the system, and to assign volunteers to events.
-- Delete events: Users will be able to delete events.
+I may have to revise my Javascript skills  to work with the front end requirements of this project.
+I should learn more about Bootstrap in order to take care of the styling for HTML elements and CSS and some Javascript code.
 
-## Technologies
-
-- Java
-- Spring Boot
-- MySQL
-- Thymeleaf templates
-- Bootstrap
-
-## What I'll Have to Learn
-
-For the login functionality, I'll have to learn something new in either scenario. If I choose to use native login functionality for the site, I'll need to learn how to use the login approach outlined in the [`spring-filter-based-auth` repository](https://github.com/LaunchCodeEducation/spring-filter-based-auth). If I choose to use third-party authentication, I'll need to learn how to use an OAuth2 provider such as Google Authentication.
-
-I'll also be using test-driven development, writing tests for my code before writing the code itself. I don't have much experience doing this in Spring, so I'll have to learn how to use its testing capabilities.
